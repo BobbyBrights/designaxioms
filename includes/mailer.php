@@ -33,9 +33,13 @@ if(isset($_POST['submit'])) {
 	if(!isset($hasError)) {
 		$emailTo = 'info@goinvo.com';
 		$subject = 'Design Axioms Feedback';
+		
+		$headers .= 'From: '.$email."\n";
+		$headers .= 'MIME-Version: 1.0' ."\n";
+		$headers .= 'Content-Type: text/plain; charset=iso-8859-1' ."\n";
+		$headers .= 'Content-Transfer-Encoding: 8bit'. "\n\n";
 	
-		$body = "$message \n\n $name\n $email\n\n ";
-		$headers = 'From '. $name . "\r\n" . 'Reply-To: ' . $email;
+		$body = "$message \n\n- $name \n$email\n\n ";
 
 		mail($emailTo, $subject, $body, $headers);
 		
