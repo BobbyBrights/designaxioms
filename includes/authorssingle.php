@@ -21,6 +21,7 @@
 					<div class=\"authorItem slide\" id=\"" . $imageId . "\"> 
 						<a id=\"hires\" href=\"" . $hiRes . "\" title=\"&lt;a href=&#34;" . $hiRes . "&#34; target=&#34;blank&#34; &gt;Download this card&lt;/a&gt;\"><img src=\"" . $image . "\" class=\"authorPortrait\" alt=\"" . $title . "\" width=\"288\" height=\"432\" /></a> 
 						<div class=\"axiomInfo\"> 
+							<div class=\"authorFlag\"></div>
 							<h1>" . $title . "</h1> 
 							<h5>" . $subtitle . "</h5>
 							<hr>
