@@ -574,18 +574,15 @@ textarea:focus{
 		#content{
 			min-height:300px;
 		}
-		.singleContent div.anythingSlider,
-		.homeContent div.anythingSlider{
+		.singleContent div.anythingSlider{
 			margin: 0px 0px 0px -22px;
 			width: 553px !important;
-			height:489px !important;
+			min-height:380px !important;
 		}
-		.singleContent div.anythingSlider .anythingWindow,
-		.homeContent div.anythingSlider .anythingWindow{
-			height: 489px;
+		.singleContent div.anythingSlider .anythingWindow {
+			height: 480px;
 		}
-		.singleContent .anythingWindow,
-		.homeContent .anythingWindow{
+		.singleContent .anythingWindow{
 			margin: 0px 20px 0px -25px;
 			width:550px !important;
 		}
@@ -609,9 +606,6 @@ textarea:focus{
 		}
 		.panel{
 			width:350px;
-		}
-		.homeContent .anythingWindow .authorItem .axiomInfo{
-			width: 240px;
 		}
 		
 		/* AUTHOR */
@@ -767,25 +761,21 @@ textarea:focus{
 		#content{
 			min-height:300px;
 		}
-		.singleContent div.anythingSlider,
-		.homeContent div.anythingSlider{
-			margin: -35px 0px 0px 0px;
+		.singleContent div.anythingSlider{
+			margin: -35px 0px 0px -27px;
 			width: 110px !important;
 			height: 384px !important;
-			border: solid red 1px;
 		}
-		.singleContent div.anythingSlider .anythingWindow,
-		.homeContent div.anythingSlider .anythingWindow{
+		.singleContent div.anythingSlider .anythingWindow {
 			height: 384px;
 		}
-		.singleContent .anythingWindow,
-		.homeContent.anythingWindow{
-			margin: 20px 20px 0px 0px;
+		.singleContent .anythingWindow{
+			margin: 20px 20px 0px -70px;
 			width:218px !important;
 		}
 		.axiomItem{
 			width:240px;
-			margin: 0px 0px 0px 0px !important;
+			margin: 0px 0px 0px -31px !important;
 		}
 		.axiomItem img{
 			height:300px;
