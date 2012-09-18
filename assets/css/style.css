@@ -261,7 +261,7 @@ ul.nav li{
 	margin: 0px 0px 0px 0px;
 }
 
-.quoteFlag, .axiomFlag{
+.quoteFlag, .axiomFlag, .authorFlag{
 	height:24px;
 	width:125px;
 	margin: 5px 0px 10px 0px;
@@ -271,6 +271,9 @@ ul.nav li{
 }
 .axiomFlag{
 	background: url('../images/axiomLabel.gif') no-repeat left center;
+}
+.authorFlag{
+	background: url('../images/authorLabel.gif') no-repeat left center;
 }
 .homeContent div.anythingSlider .anythingWindow {
 	height: 570px;
@@ -799,7 +802,7 @@ textarea:focus{
 			margin: 0px 0px 10px -255px;
 			font-size:15px;
 		}
-		.axiomInfo h5,.axiomInfo h4, .axiomInfo hr, .axiomInfo p, .quoteFlag, .axiomFlag  {
+		.axiomInfo h5,.axiomInfo h4, .axiomInfo hr, .axiomInfo p, .quoteFlag, .axiomFlag, .authorFlag  {
 			display:none;
 		}
 		.panel{
@@ -1002,7 +1005,7 @@ textarea:focus{
 			margin: 0px 0px 10px -255px;
 			font-size:15px;
 		}
-		.axiomInfo h5,.axiomInfo h4, .axiomInfo hr, .axiomInfo p, .quoteFlag, .axiomFlag  {
+		.axiomInfo h5,.axiomInfo h4, .axiomInfo hr, .axiomInfo p, .quoteFlag, .axiomFlag, .authorFlag {
 			display:none;
 		}
 		.panel{
