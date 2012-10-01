@@ -1,7 +1,6 @@
 <cards>
 	<card type="axiom">
 		<image new="no">./assets/images/cards/axiom_whatInterface.jpg</image>
-		<hiRes>./assets/images/hiRes/axiom_whatInterface.jpg</hiRes>
 		<thumb url="./axioms.php">./assets/images/thumbs/axiom_whatInterface.jpg</thumb>
 		<title id="whatInterface">What Interface?</title>
 		<subtitle></subtitle>
@@ -13,7 +12,6 @@
 	</card>
 	<card type="axiom">
 		<image new="no">./assets/images/cards/axiom_letDataScream.jpg</image>
-		<hiRes>./assets/images/hiRes/axiom_letDataScream.jpg</hiRes>
 		<thumb url="./axioms.php">./assets/images/thumbs/axiom_letDataScream.jpg</thumb>
 		<title id="letDataScream">Let Data Scream</title>
 		<subtitle></subtitle>
@@ -24,7 +22,6 @@
 	</card>
 	<card type="axiom">
 		<image new="no">./assets/images/hiRes/axiom_knowThyCode.jpg</image>
-		<hiRes>./assets/images/hiRes/axiom_knowThyCode.jpg</hiRes>
 		<thumb url="./axioms.php">./assets/images/thumbs/axiom_knowThyCode.jpg</thumb>
 		<title id="knowThyCode">Know Thy Code</title>
 		<subtitle></subtitle>
@@ -35,7 +32,6 @@
 	</card>
 	<card type="axiom">
 		<image new="no">./assets/images/cards/axiom_prototypeLikeCrazy.jpg</image>
-		<hiRes>./assets/images/hiRes/axiom_prototypeLikeCrazy.jpg</hiRes>
 		<thumb url="./axioms.php">./assets/images/thumbs/axiom_prototypeLikeCrazy.jpg</thumb>
 		<title id="prototypeLikeCrazy">Prototype Like Crazy</title>
 		<subtitle></subtitle>
@@ -47,7 +43,6 @@
 	</card>
 	<card type="axiom">
 		<image new="no">./assets/images/cards/axiom_allAxioms.jpg</image>
-		<hiRes>./assets/images/hiRes/axiom_allAxioms.jpg</hiRes>
 		<thumb url="./axioms.php">./assets/images/thumbs/axiom_allAxioms.jpg</thumb>
 		<title id="designAxioms">Design Axioms</title>
 		<subtitle></subtitle>
@@ -76,7 +71,6 @@
 	
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_forgetThePrettyPictures.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_forgetPrettyPictures.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_forgetThePrettyPictures.jpg</thumb>
 		<title id="prettyPictures">Forget the Pretty Pictures, Help People Do What They Want</title>
 		<subtitle href="./authors.php#dirk">Quote by Dirk Knemeyer</subtitle>
@@ -87,7 +81,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_designIsNot.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_designIsNotTheoretical.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_designIsNot.jpg</thumb>
 		<title id="designIsNot">Design is Not a Theoretical Excercise</title>
 		<subtitle href="./authors.php#andrei">Quote by Andrei Herasimchuk</subtitle>
@@ -98,7 +91,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_reduceDistance.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_reduceDistance.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_reduceDistance.jpg</thumb>
 		<title id="reduceDistance">Reduce the Distance Between Users and Content</title>
 		<subtitle href="./authors.php#luke">Quote by Luke Wroblewski</subtitle>
@@ -110,7 +102,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_realDataIsTruth.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_realDataIsTruth.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_realDataIsTruth.jpg</thumb>
 		<title id="realData">Real Data is Truth</title>
 		<subtitle href="./authors.php#juhan">Quote by Juhan Sonin</subtitle>
@@ -123,7 +114,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_prototypesArentEnds.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_prototypesArentEnds.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_prototypesArentEnds.jpg</thumb>
 		<title id="prototypes">Prototypes Aren't The End, They're the Means</title>
 		<subtitle href="./authors.php#knemeyer">Quote by Dirk Knemeyer</subtitle>
@@ -135,7 +125,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_makeThings.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_makeThings.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_makeThings.jpg</thumb>
 		<title id="makeThings">Make Things</title>
 		<subtitle href="./authors.php#luke">Quote by Luke Wroblewski</subtitle>
@@ -147,7 +136,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_letInkUiLinesDisappear.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_letInkUiLinesDisappear.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_letInkUiLinesDisappear.jpg</thumb>
 		<title id="disappear">Let the Ink, UI, and Lines Disappear</title>
 		<subtitle href="./authors.php#juhan">Quote by Juhan Sonin</subtitle>
@@ -158,7 +146,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_ifEverythingIsImportant.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_ifEverythingIsImportant.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_ifEverythingIsImportant.jpg</thumb>
 		<title id="everything">If Everything is Important, Nothing is Important</title>
 		<subtitle href="./authors.php#andrei">Quote by Andrei Herasimchuk</subtitle>
@@ -169,7 +156,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_goHighFidelity.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_goHighFidelity.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_goHighFidelity.jpg</thumb>
 		<title  id="hiFi">Go as High Fidelity with Real Data as Fast as Possible</title>
 		<subtitle href="./authors.php#luke">Quote by Luke Wroblewski</subtitle>
@@ -180,7 +166,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_ganttChartsIllusionofManagement.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_ganttChartsIllusionofManagement.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_ganttChartsIllusionofManagement.jpg</thumb>
 		<title id="gantt">Gantt Charts are the Illusion of Management</title>
 		<subtitle href="./authors.php#juhan">Quote by Juhan Sonin</subtitle>
@@ -192,7 +177,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_dontDesign.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_dontDesign.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_dontDesign.jpg</thumb>
 		<title id="dontDesign">Don't Design It If You Don't Know How It's Going to Be Built</title>
 		<subtitle href="./authors.php#andrei">Quote by Andrei Herasimchuk</subtitle>
@@ -203,7 +187,6 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/hiRes/quote_beFamiliarwithCode.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_beFamiliarwithCode.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_beFamiliarwithCode.jpg</thumb>
 		<title id="familiar">You Should Be as Familiar with Code as Design</title>
 		<subtitle href="./authors.php#dirk">Quote by Dirk Knemeyer</subtitle>
@@ -216,7 +199,6 @@
 	
 	<card type="author">
 		<image new="no">./assets/images/cards/author_andreiHerasimchuk.jpg</image>
-		<hiRes>./assets/images/hiRes/author_andreiHerasimchuk.jpg</hiRes>
 		<thumb url="./authors.php">./assets/images/thumbs/author_andreiHerasimchuk.jpg</thumb>
 		<title id="andrei">Andrei Herasimchuk</title>
 		<subtitle>Special Abilities: System Engineering, Pixel Perfection, Rebellion Against Orthodoxy</subtitle>
@@ -233,7 +215,6 @@
 	</card>
 	<card type="author">
 		<image new="no">./assets/images/cards/author_lukeWroblewski.jpg</image>
-		<hiRes>./assets/images/hiRes/author_lukeWroblewski.jpg</hiRes>
 		<thumb url="./authors.php">./assets/images/thumbs/author_lukeWroblewski.jpg</thumb>
 		<title id="luke">Luke Wroblewski</title>
 		<subtitle>Special Abilities: System Engineering, Design + Business Product Strategy</subtitle>
@@ -249,7 +230,6 @@
 	</card>
 	<card type="author">
 		<image new="no">./assets/images/cards/author_juhanSonin.jpg</image>
-		<hiRes>./assets/images/hiRes/author_juhanSonin.jpg</hiRes>
 		<thumb url="./authors.php">./assets/images/thumbs/author_juhanSonin.jpg</thumb>
 		<title id="juhan">Juhan Sonin</title>
 		<subtitle>Special Abilities: System Engineering, Future Thinking, Truth + Transparency</subtitle>
@@ -265,7 +245,6 @@
 	</card>
 	<card type="author">
 		<image new="no">./assets/images/cards/author_dirkKnemeyer.jpg</image>
-		<hiRes>./assets/images/hiRes/author_dirkKnemeyer.jpg</hiRes>
 		<thumb url="./authors.php">./assets/images/thumbs/author_dirkKnemeyer.jpg</thumb>
 		<title id="dirk">Dirk Knemeyer</title>
 		<subtitle>Special Abilities: System Engineering, Big Ideas, Risk Taking</subtitle>

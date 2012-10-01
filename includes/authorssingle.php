@@ -6,7 +6,6 @@
 				
 				if($cardType == 'author'){
 					$image=$card->getElementsByTagName('image')->item(0)->nodeValue;
-					$hiRes=$card->getElementsByTagName('hiRes')->item(0)->nodeValue;
 					$title=$card->getElementsByTagName('title')->item(0)->nodeValue;
 					$imageId=$card->getElementsByTagName('title')->item(0)->getAttribute('id');
 					$subtitle=$card->getElementsByTagName('subtitle')->item(0)->nodeValue;
@@ -19,7 +18,7 @@
 					
 					echo"		<li class=\"panel\"> 
 					<div class=\"authorItem slide\" id=\"" . $imageId . "\"> 
-						<a id=\"hires\" href=\"" . $hiRes . "\" title=\"&lt;a href=&#34;" . $hiRes . "&#34; target=&#34;blank&#34; &gt;Download this card&lt;/a&gt;\"><img src=\"" . $image . "\" class=\"authorPortrait\" alt=\"" . $title . "\" width=\"288\" height=\"432\" /></a> 
+						<img src=\"" . $image . "\" class=\"authorPortrait\" alt=\"" . $title . "\" width=\"288\" height=\"432\" />
 						<div class=\"axiomInfo\"> 
 							<div class=\"authorFlag\"></div>
 							<h1>" . $title . "</h1> 

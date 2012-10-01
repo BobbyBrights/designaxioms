@@ -8,7 +8,6 @@
 				
 				if($cardType == 'quote'){
 				$image=$card->getElementsByTagName('image')->item(0)->nodeValue;
-				$hiRes=$card->getElementsByTagName('hiRes')->item(0)->nodeValue;
 				$title=$card->getElementsByTagName('title')->item(0)->nodeValue;
 				$imageId=$card->getElementsByTagName('title')->item(0)->getAttribute('id');
 				$subtitle=$card->getElementsByTagName('subtitle')->item(0)->nodeValue;
@@ -17,7 +16,7 @@
 				
 				echo"		<li class=\"panel\"> 
 				<div class=\"axiomItem slide\" id=\"" . $imageId . "\"> 
-					<a class=\"hires\" href=\"" . $hiRes . "\" title=\"&lt;a href=&#34;" . $hiRes . "&#34; target=&#34;blank&#34; &gt;Download this card&lt;/a&gt;\"><img src=\"" . $image . "\" alt=\"" . $title . "\" width=\"288\" height=\"432\" /></a> 
+					<img src=\"" . $image . "\" alt=\"" . $title . "\" width=\"288\" height=\"432\" />
 					<div class=\"axiomInfo\"><div class=\"quoteFlag\"></div> 
 						<h1>" . $title . "</h1> 
 						<h4><a href=\"" . $authorLink . "\">" . $subtitle . "</a></h4>

@@ -240,7 +240,9 @@ ul.nav li{
 	margin: 0px 0px 0px 30px;
 	overflow:hidden;
 }
-
+.axiomItem ul{
+	padding-left: 20px;
+}
 .axiomItem img{
 	background: url('../images/axiomFrame.gif') no-repeat right bottom;
 	padding: 10px 10px 12px 10px;
@@ -574,15 +576,18 @@ textarea:focus{
 		#content{
 			min-height:300px;
 		}
-		.singleContent div.anythingSlider{
+		.singleContent div.anythingSlider,
+		.homeContent div.anythingSlider{
 			margin: 0px 0px 0px -22px;
 			width: 553px !important;
 			min-height:380px !important;
 		}
-		.singleContent div.anythingSlider .anythingWindow {
+		.singleContent div.anythingSlider .anythingWindow,
+		.homeContent div.anythingSlider .anythingWindow {
 			height: 480px;
 		}
-		.singleContent .anythingWindow{
+		.singleContent .anythingWindow,
+		.homeContent .anythingWindow{
 			margin: 0px 20px 0px -25px;
 			width:550px !important;
 		}
@@ -632,10 +637,10 @@ textarea:focus{
 			background: url('../images/axiomFrame2.gif') no-repeat right bottom;
 			margin: 0px 0px 0px 19px;
 		}
-		.axiomInfo{
+		.authorItem .axiomInfo{
 			width:250px;
 			float:right;
-			margin: 0px 255px 0px 0px;
+			margin: 0px 245px 0px 0px;
 			font-size:12px;
 			line-height:1em;
 		}
@@ -761,15 +766,18 @@ textarea:focus{
 		#content{
 			min-height:300px;
 		}
-		.singleContent div.anythingSlider{
+		.singleContent div.anythingSlider,
+		.homeContent div.anythingSlider{
 			margin: -35px 0px 0px -27px;
 			width: 110px !important;
 			height: 384px !important;
 		}
-		.singleContent div.anythingSlider .anythingWindow {
+		.singleContent div.anythingSlider .anythingWindow,
+		.homeContent div.anythingSlider .anythingWindow {
 			height: 384px;
 		}
-		.singleContent .anythingWindow{
+		.singleContent .anythingWindow,
+		.homeContent .anythingWindow{
 			margin: 20px 20px 0px -70px;
 			width:218px !important;
 		}
@@ -971,15 +979,18 @@ textarea:focus{
 		#content{
 			min-height:300px;
 		}
-		.singleContent div.anythingSlider{
+		.singleContent div.anythingSlider,
+		.homeContent div.anythingSlider{
 			margin: -25px 0px 0px -17px;
 			width: 215px !important;
 			height: 385px !important;
 		}
-		.singleContent div.anythingSlider .anythingWindow {
+		.singleContent div.anythingSlider .anythingWindow,
+		.homeContent div.anythingSlider .anythingWindow{
 			height: 385px;
 		}
-		.singleContent .anythingWindow{
+		.singleContent .anythingWindow,
+		.homeContent .anythingWindow{
 			margin: 20px 20px 0px -25px;
 			width:230px !important;
 		}
