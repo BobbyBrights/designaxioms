@@ -186,7 +186,7 @@
 		</description>
 	</card>
 	<card type="quote">
-		<image new="no">./assets/images/hiRes/quote_beFamiliarwithCode.jpg</image>
+		<image new="no">./assets/images/cards/quote_beFamiliarwithCode.jpg</image>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_beFamiliarwithCode.jpg</thumb>
 		<title id="familiar">You Should Be as Familiar with Code as Design</title>
 		<subtitle href="./authors.php#dirk">Quote by Dirk Knemeyer</subtitle>
