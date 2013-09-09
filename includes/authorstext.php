@@ -1,6 +1,9 @@
 		<div id="content" class="sixteen columns authorSingle axiomContent">
 			<ul id="slider">
 		<?php
+			//$allQuoteLinks  = array();
+			//$allQuoteImgs = array();
+			//$allQuoteAlts = array();
 			
 			foreach ($allCards as $card) {
 				$cardType = $card->getAttribute('type');
@@ -11,6 +14,21 @@
 					$imageId=$card->getElementsByTagName('title')->item(0)->getAttribute('id');
 					$subtitle=$card->getElementsByTagName('subtitle')->item(0)->nodeValue;
 					$description=$card->getElementsByTagName('description')->item(0)->nodeValue;
+					//$authorQuotes=$card->getElementsByTagName('authorQuotes')->item(0)->nodeValue;
+					//$quoteLinks=$card->getElementsByTagName('quoted');
+					
+					//loop to get all quotes, push to array
+					/*$quoteCount = 0;
+			
+					foreach($quoteLinks as $quoteLink) {
+						$quoteLink = $card->getElementsByTagName('quoted')->item($quoteCount)->getAttribute('url');
+						$quoteAlt = $card->getElementsByTagName('quoted')->item($quoteCount)->getAttribute('title');
+						$quoteImg = $card->getElementsByTagName('quoted')->item($quoteCount)->nodeValue;
+						$allQuoteLinks[] = $quoteLink;
+						$allQuoteImgs[] = $quoteImg;
+						$allQuoteAlts[] = $quoteAlt;
+						$quoteCount++;
+					}//end loop*/
 					
 			echo"		<li class=\"panel\"> 
 					<div class=\"authorItem slide\" id=\"" . $imageId . "\"> 

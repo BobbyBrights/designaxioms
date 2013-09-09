@@ -9,6 +9,7 @@
 				$cardType = $card->getAttribute('type');
 				
 				$image=$card->getElementsByTagName('image')->item(0)->nodeValue;
+				$hiRes=$card->getElementsByTagName('hiRes')->item(0)->nodeValue;
 				$title=$card->getElementsByTagName('title')->item(0)->nodeValue;
 				$imageId=$card->getElementsByTagName('title')->item(0)->getAttribute('id');
 				$subtitle=$card->getElementsByTagName('subtitle')->item(0)->nodeValue;
@@ -35,7 +36,7 @@
 				echo"		<li class=\"panel\">";
 					if ($cardType == 'author'){
 						echo"<div class=\"authorItem slide\" id=\"" . $imageId . "\">
-						<img src=\"" . $image . "\" class=\"authorPortrait\" alt=\"" . $title . "\" width=\"288\" height=\"432\" />";
+						<a class=\"hires\" href=\"" . $hiRes . "\" title=\"&lt;a href=&#34;" . $hiRes . "&#34;&gt;Download this card&lt;/a&gt;\"><img src=\"" . $image . "\" class=\"authorPortrait\" alt=\"" . $title . "\" width=\"288\" height=\"432\" /></a>";
 					} else {
 						echo "<div class=\"axiomItem slide\" id=\"" . $imageId . "\">
 						<a class=\"hires\" href=\"" . $hiRes . "\" title=\"&lt;a href=&#34;" . $hiRes . "&#34; target=&#34;blank&#34; &gt;Download this card&lt;/a&gt;\"><img src=\"" . $image . "\" alt=\"" . $title . "\" width=\"288\" height=\"432\" /></a>"; 
