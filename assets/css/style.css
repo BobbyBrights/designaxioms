@@ -580,11 +580,16 @@ textarea:focus{
 		.homeContent div.anythingSlider{
 			margin: 0px 0px 0px -22px;
 			width: 553px !important;
-			min-height:380px !important;
+			height:489px !important;
 		}
 		.singleContent div.anythingSlider .anythingWindow,
+<<<<<<< HEAD
 		.homeContent div.anythingSlider .anythingWindow {
 			height: 480px;
+=======
+		.homeContent div.anythingSlider .anythingWindow{
+			height: 489px;
+>>>>>>> parent of 07938bf... Revert "beginning to make home single changes to fix author problems"
 		}
 		.singleContent .anythingWindow,
 		.homeContent .anythingWindow{
@@ -611,6 +616,9 @@ textarea:focus{
 		}
 		.panel{
 			width:350px;
+		}
+		.homeContent .anythingWindow .authorItem .axiomInfo{
+			width: 240px;
 		}
 		
 		/* AUTHOR */
@@ -768,22 +776,36 @@ textarea:focus{
 		}
 		.singleContent div.anythingSlider,
 		.homeContent div.anythingSlider{
+<<<<<<< HEAD
 			margin: -35px 0px 0px -27px;
+=======
+			margin: -35px 0px 0px 0px;
+>>>>>>> parent of 07938bf... Revert "beginning to make home single changes to fix author problems"
 			width: 110px !important;
 			height: 384px !important;
+			border: solid red 1px;
 		}
 		.singleContent div.anythingSlider .anythingWindow,
+<<<<<<< HEAD
 		.homeContent div.anythingSlider .anythingWindow {
 			height: 384px;
 		}
 		.singleContent .anythingWindow,
 		.homeContent .anythingWindow{
 			margin: 20px 20px 0px -70px;
+=======
+		.homeContent div.anythingSlider .anythingWindow{
+			height: 384px;
+		}
+		.singleContent .anythingWindow,
+		.homeContent.anythingWindow{
+			margin: 20px 20px 0px 0px;
+>>>>>>> parent of 07938bf... Revert "beginning to make home single changes to fix author problems"
 			width:218px !important;
 		}
 		.axiomItem{
 			width:240px;
-			margin: 0px 0px 0px -31px !important;
+			margin: 0px 0px 0px 0px !important;
 		}
 		.axiomItem img{
 			height:300px;
