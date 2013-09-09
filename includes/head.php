@@ -29,7 +29,11 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 	
+<<<<<<< HEAD
 	<!--page tracking // analytics-->
+=======
+	<!--page tracking // analytics -->
+>>>>>>> 93de425f298c95958e1e607ac17a688d1a596cfa
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
 	  _gaq.push(['_setAccount', 'UA-10273473-7']);

@@ -76,7 +76,7 @@
 	
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_forgetThePrettyPictures.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_forgetPrettyPictures.jpg</hiRes>
+		<hiRes>./assets/images/hiRes/quote_forgetThePrettyPictures.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_forgetThePrettyPictures.jpg</thumb>
 		<title id="prettyPictures">Forget the Pretty Pictures, Help People Do What They Want</title>
 		<subtitle href="./authors.php#dirk">Quote by Dirk Knemeyer</subtitle>
@@ -87,7 +87,7 @@
 	</card>
 	<card type="quote">
 		<image new="no">./assets/images/cards/quote_designIsNot.jpg</image>
-		<hiRes>./assets/images/hiRes/quote_designIsNotTheoretical.jpg</hiRes>
+		<hiRes>./assets/images/hiRes/quote_designIsNot.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_designIsNot.jpg</thumb>
 		<title id="designIsNot">Design is Not a Theoretical Excercise</title>
 		<subtitle href="./authors.php#andrei">Quote by Andrei Herasimchuk</subtitle>
@@ -202,7 +202,7 @@
 		</description>
 	</card>
 	<card type="quote">
-		<image new="no">./assets/images/hiRes/quote_beFamiliarwithCode.jpg</image>
+		<image new="no">./assets/images/cards/quote_beFamiliarwithCode.jpg</image>
 		<hiRes>./assets/images/hiRes/quote_beFamiliarwithCode.jpg</hiRes>
 		<thumb url="./quotes.php">./assets/images/thumbs/quote_beFamiliarwithCode.jpg</thumb>
 		<title id="familiar">You Should Be as Familiar with Code as Design</title>
