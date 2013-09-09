@@ -23,7 +23,7 @@
 		</description>
 	</card>
 	<card type="axiom">
-		<image new="no">./assets/images/hiRes/axiom_knowThyCode.jpg</image>
+		<image new="no">./assets/images/cards/axiom_knowThyCode.jpg</image>
 		<hiRes>./assets/images/hiRes/axiom_knowThyCode.jpg</hiRes>
 		<thumb url="./axioms.php">./assets/images/thumbs/axiom_knowThyCode.jpg</thumb>
 		<title id="knowThyCode">Know Thy Code</title>

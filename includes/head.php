@@ -29,10 +29,10 @@
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
 	
-	<!--page tracking-->
+	<!--page tracking // analytics-->
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-33968268-1']);
+	  _gaq.push(['_setAccount', 'UA-10273473-7']);
 	  _gaq.push(['_trackPageview']);
 
 	  (function() {
